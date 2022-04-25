@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test">
+        <classes>
+            <class name="ApiBooker.Get"></class>
+            <class name="ApiBooker.GetBooking"></class>
+            <class name="ApiBooker.CreateBooker"></class>
+            <class name="ApiBooker.DeleteBooking"></class>
+            <class name="ApiBooker.PUTBOOKER"></class>
+
+            <class name="SwaggerApi.PostPet"></class>
+            <class name="SwaggerApi.PostStore"></class>
+            <class name="SwaggerApi.PostUser"></class>
+            <class name="SwaggerApi.Putpet"></class>
+        </classes>
+    </test>
+</suite>

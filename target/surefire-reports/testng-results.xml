@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="64" passed="64" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T16:57:20 EET" name="All Test Suite" finished-at="2022-04-25T16:58:00 EET" duration-ms="39861">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T16:57:20 EET" name="test" finished-at="2022-04-25T16:58:00 EET" duration-ms="39861">
+      <class name="ApiBooker.Get">
+        <test-method is-config="true" signature="api()[pri:0, instance:ApiBooker.Get@d4342c2]" started-at="2022-04-25T16:57:20 EET" name="api" finished-at="2022-04-25T16:57:23 EET" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="checkstatuscode()[pri:0, instance:ApiBooker.Get@d4342c2]" started-at="2022-04-25T16:57:23 EET" name="checkstatuscode" finished-at="2022-04-25T16:57:23 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:ApiBooker.Get@d4342c2]" started-at="2022-04-25T16:57:23 EET" name="checkbody" finished-at="2022-04-25T16:57:24 EET" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="checkstatusline()[pri:3, instance:ApiBooker.Get@d4342c2]" started-at="2022-04-25T16:57:24 EET" name="checkstatusline" finished-at="2022-04-25T16:57:24 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+        <test-method signature="checkheader()[pri:4, instance:ApiBooker.Get@d4342c2]" started-at="2022-04-25T16:57:24 EET" name="checkheader" finished-at="2022-04-25T16:57:24 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+      </class> <!-- ApiBooker.Get -->
+      <class name="ApiBooker.DeleteBooking">
+        <test-method is-config="true" signature="api()[pri:0, instance:ApiBooker.DeleteBooking@159f197]" started-at="2022-04-25T16:57:27 EET" name="api" finished-at="2022-04-25T16:57:29 EET" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="checkstatuscode()[pri:0, instance:ApiBooker.DeleteBooking@159f197]" started-at="2022-04-25T16:57:29 EET" name="checkstatuscode" finished-at="2022-04-25T16:57:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:ApiBooker.DeleteBooking@159f197]" started-at="2022-04-25T16:57:29 EET" name="checkbody" finished-at="2022-04-25T16:57:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="checkstatusline()[pri:3, instance:ApiBooker.DeleteBooking@159f197]" started-at="2022-04-25T16:57:29 EET" name="checkstatusline" finished-at="2022-04-25T16:57:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+        <test-method signature="checkheader()[pri:4, instance:ApiBooker.DeleteBooking@159f197]" started-at="2022-04-25T16:57:29 EET" name="checkheader" finished-at="2022-04-25T16:57:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+      </class> <!-- ApiBooker.DeleteBooking -->
+      <class name="SwaggerApi.PostUser">
+        <test-method is-config="true" signature="api()[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:46 EET" name="api" finished-at="2022-04-25T16:57:46 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:46 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:47 EET" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[walled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:47 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:48 EET" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:48 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:49 EET" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kamal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:49 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:50 EET" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:50 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:51 EET" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:51 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:52 EET" duration-ms="877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nsro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:52 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:52 EET" duration-ms="908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:52 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:53 EET" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:53 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:54 EET" duration-ms="830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:54 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:55 EET" duration-ms="856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bebo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:55 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:56 EET" duration-ms="841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ledo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:56 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:57 EET" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[you]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:57 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:58 EET" duration-ms="864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohamed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatus()[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:58 EET" name="checkstatus" finished-at="2022-04-25T16:57:58 EET" depends-on-methods="SwaggerApi.PostUser.post" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="ceckbody()[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:58 EET" name="ceckbody" finished-at="2022-04-25T16:57:58 EET" depends-on-methods="SwaggerApi.PostUser.checkstatus" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceckbody -->
+        <test-method signature="checkheader()[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:58 EET" name="checkheader" finished-at="2022-04-25T16:57:58 EET" depends-on-methods="SwaggerApi.PostUser.ceckbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+        <test-method signature="checkstatusline()[pri:0, instance:SwaggerApi.PostUser@12e61fe6]" started-at="2022-04-25T16:57:58 EET" name="checkstatusline" finished-at="2022-04-25T16:57:58 EET" depends-on-methods="SwaggerApi.PostUser.checkheader" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- SwaggerApi.PostUser -->
+      <class name="ApiBooker.GetBooking">
+        <test-method is-config="true" signature="api()[pri:0, instance:ApiBooker.GetBooking@6193932a]" started-at="2022-04-25T16:57:24 EET" name="api" finished-at="2022-04-25T16:57:26 EET" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="checkstatuscode()[pri:0, instance:ApiBooker.GetBooking@6193932a]" started-at="2022-04-25T16:57:26 EET" name="checkstatuscode" finished-at="2022-04-25T16:57:26 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:ApiBooker.GetBooking@6193932a]" started-at="2022-04-25T16:57:26 EET" name="checkbody" finished-at="2022-04-25T16:57:26 EET" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="checkstatusline()[pri:3, instance:ApiBooker.GetBooking@6193932a]" started-at="2022-04-25T16:57:26 EET" name="checkstatusline" finished-at="2022-04-25T16:57:26 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+        <test-method signature="checkheader()[pri:4, instance:ApiBooker.GetBooking@6193932a]" started-at="2022-04-25T16:57:26 EET" name="checkheader" finished-at="2022-04-25T16:57:26 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+      </class> <!-- ApiBooker.GetBooking -->
+      <class name="ApiBooker.CreateBooker">
+        <test-method is-config="true" signature="api()[pri:0, instance:ApiBooker.CreateBooker@647fd8ce]" started-at="2022-04-25T16:57:26 EET" name="api" finished-at="2022-04-25T16:57:27 EET" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="checkstatus()[pri:1, instance:ApiBooker.CreateBooker@647fd8ce]" started-at="2022-04-25T16:57:27 EET" name="checkstatus" finished-at="2022-04-25T16:57:27 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="checkbody()[pri:2, instance:ApiBooker.CreateBooker@647fd8ce]" started-at="2022-04-25T16:57:27 EET" name="checkbody" finished-at="2022-04-25T16:57:27 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="checkheader()[pri:3, instance:ApiBooker.CreateBooker@647fd8ce]" started-at="2022-04-25T16:57:27 EET" name="checkheader" finished-at="2022-04-25T16:57:27 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+        <test-method signature="checkstatusline()[pri:4, instance:ApiBooker.CreateBooker@647fd8ce]" started-at="2022-04-25T16:57:27 EET" name="checkstatusline" finished-at="2022-04-25T16:57:27 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- ApiBooker.CreateBooker -->
+      <class name="ApiBooker.PUTBOOKER">
+        <test-method is-config="true" signature="api()[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:29 EET" name="api" finished-at="2022-04-25T16:57:29 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:29 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:31 EET" duration-ms="1699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adhm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pasta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:31 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:33 EET" duration-ms="1651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[walled]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saliman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ice cream]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:33 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:35 EET" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahmoud]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fishh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:35 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:37 EET" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mohb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[meat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:37 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:39 EET" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahmoud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khalil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[apfel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="putdata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:39 EET" name="putdata" data-provider="Excel" finished-at="2022-04-25T16:57:41 EET" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shrief]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method signature="checkstatuscode()[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:41 EET" name="checkstatuscode" finished-at="2022-04-25T16:57:41 EET" depends-on-methods="ApiBooker.PUTBOOKER.putdata" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:41 EET" name="checkbody" finished-at="2022-04-25T16:57:41 EET" depends-on-methods="ApiBooker.PUTBOOKER.checkstatuscode" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="checkstatusline()[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:41 EET" name="checkstatusline" finished-at="2022-04-25T16:57:41 EET" depends-on-methods="ApiBooker.PUTBOOKER.checkbody" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+        <test-method signature="checkheader()[pri:0, instance:ApiBooker.PUTBOOKER@1ffe63b9]" started-at="2022-04-25T16:57:41 EET" name="checkheader" finished-at="2022-04-25T16:57:41 EET" depends-on-methods="ApiBooker.PUTBOOKER.checkstatusline" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+      </class> <!-- ApiBooker.PUTBOOKER -->
+      <class name="SwaggerApi.PostStore">
+        <test-method is-config="true" signature="api()[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:44 EET" name="api" finished-at="2022-04-25T16:57:44 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:44 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:44 EET" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:44 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:46 EET" duration-ms="1080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagtive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String)[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:46 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:46 EET" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagtive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatus()[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:46 EET" name="checkstatus" finished-at="2022-04-25T16:57:46 EET" depends-on-methods="SwaggerApi.PostStore.post" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="ceckbody()[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:46 EET" name="ceckbody" finished-at="2022-04-25T16:57:46 EET" depends-on-methods="SwaggerApi.PostStore.checkstatus" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceckbody -->
+        <test-method signature="checkheader()[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:46 EET" name="checkheader" finished-at="2022-04-25T16:57:46 EET" depends-on-methods="SwaggerApi.PostStore.ceckbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+        <test-method signature="checkstatusline()[pri:0, instance:SwaggerApi.PostStore@7c469c48]" started-at="2022-04-25T16:57:46 EET" name="checkstatusline" finished-at="2022-04-25T16:57:46 EET" depends-on-methods="SwaggerApi.PostStore.checkheader" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- SwaggerApi.PostStore -->
+      <class name="SwaggerApi.PostPet">
+        <test-method is-config="true" signature="api()[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:41 EET" name="api" finished-at="2022-04-25T16:57:41 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:41 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:42 EET" duration-ms="999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:42 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:43 EET" duration-ms="992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[walled]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:43 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:44 EET" duration-ms="892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatus()[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:44 EET" name="checkstatus" finished-at="2022-04-25T16:57:44 EET" depends-on-methods="SwaggerApi.PostPet.post" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="ceckbody()[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:44 EET" name="ceckbody" finished-at="2022-04-25T16:57:44 EET" depends-on-methods="SwaggerApi.PostPet.checkstatus" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceckbody -->
+        <test-method signature="checkheader()[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:44 EET" name="checkheader" finished-at="2022-04-25T16:57:44 EET" depends-on-methods="SwaggerApi.PostPet.ceckbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+        <test-method signature="checkstatusline()[pri:0, instance:SwaggerApi.PostPet@51e5fc98]" started-at="2022-04-25T16:57:44 EET" name="checkstatusline" finished-at="2022-04-25T16:57:44 EET" depends-on-methods="SwaggerApi.PostPet.checkheader" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- SwaggerApi.PostPet -->
+      <class name="SwaggerApi.Putpet">
+        <test-method is-config="true" signature="api()[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:57:58 EET" name="api" finished-at="2022-04-25T16:57:58 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:57:58 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:58 EET" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:57:58 EET" name="post" data-provider="data" finished-at="2022-04-25T16:57:59 EET" duration-ms="871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:57:59 EET" name="post" data-provider="data" finished-at="2022-04-25T16:58:00 EET" duration-ms="846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[float]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatus()[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:58:00 EET" name="checkstatus" finished-at="2022-04-25T16:58:00 EET" depends-on-methods="SwaggerApi.Putpet.post" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="ceckbody()[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:58:00 EET" name="ceckbody" finished-at="2022-04-25T16:58:00 EET" depends-on-methods="SwaggerApi.Putpet.checkstatus" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceckbody -->
+        <test-method signature="checkheader()[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:58:00 EET" name="checkheader" finished-at="2022-04-25T16:58:00 EET" depends-on-methods="SwaggerApi.Putpet.ceckbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkheader -->
+        <test-method signature="checkstatusline()[pri:0, instance:SwaggerApi.Putpet@7ee955a8]" started-at="2022-04-25T16:58:00 EET" name="checkstatusline" finished-at="2022-04-25T16:58:00 EET" depends-on-methods="SwaggerApi.Putpet.checkheader" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- SwaggerApi.Putpet -->
+    </test> <!-- test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

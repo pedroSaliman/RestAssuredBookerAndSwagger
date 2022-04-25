@@ -1,0 +1,399 @@
+<html>
+<head>
+<title>TestNG:  test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>64/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 25 16:57:20 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39861 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.checkstatuscode()'><b>checkstatuscode</b><br>Test class: ApiBooker.PUTBOOKER</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='ApiBooker.CreateBooker.checkstatus()'><b>checkstatus</b><br>Test class: ApiBooker.CreateBooker</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.CreateBooker@647fd8ce</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.post()'><b>post</b><br>Test class: SwaggerApi.PostPet<br>Parameters: medo, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: walled, saliman, ice cream</td>
+<td></td>
+<td>1</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.post()'><b>post</b><br>Test class: SwaggerApi.PostPet<br>Parameters: string, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='ApiBooker.Get.checkstatusline()'><b>checkstatusline</b><br>Test class: ApiBooker.Get</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.Get@d4342c2</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.checkstatusline()'><b>checkstatusline</b><br>Test class: ApiBooker.PUTBOOKER</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='ApiBooker.DeleteBooking.checkstatusline()'><b>checkstatusline</b><br>Test class: ApiBooker.DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.DeleteBooking@159f197</td></tr>
+<tr>
+<td title='ApiBooker.DeleteBooking.checkstatuscode()'><b>checkstatuscode</b><br>Test class: ApiBooker.DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.DeleteBooking@159f197</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.checkstatus()'><b>checkstatus</b><br>Test class: SwaggerApi.PostStore</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: kemo</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.ceckbody()'><b>ceckbody</b><br>Test class: SwaggerApi.PostStore</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.post()'><b>post</b><br>Test class: SwaggerApi.Putpet<br>Parameters: string, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='ApiBooker.GetBooking.checkbody()'><b>checkbody</b><br>Test class: ApiBooker.GetBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.GetBooking@6193932a</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: maha</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.checkheader()'><b>checkheader</b><br>Test class: ApiBooker.PUTBOOKER</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: walled</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: you</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: alla, mahmoud, fishh</td>
+<td></td>
+<td>2</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.checkstatusline()'><b>checkstatusline</b><br>Test class: SwaggerApi.PostPet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.ceckbody()'><b>ceckbody</b><br>Test class: SwaggerApi.PostPet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='ApiBooker.Get.checkheader()'><b>checkheader</b><br>Test class: ApiBooker.Get</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.Get@d4342c2</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.post()'><b>post</b><br>Test class: SwaggerApi.Putpet<br>Parameters: kamal, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='ApiBooker.DeleteBooking.checkbody()'><b>checkbody</b><br>Test class: ApiBooker.DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.DeleteBooking@159f197</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: nsro</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.checkheader()'><b>checkheader</b><br>Test class: SwaggerApi.PostUser</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.ceckbody()'><b>ceckbody</b><br>Test class: SwaggerApi.PostUser</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.post()'><b>post</b><br>Test class: SwaggerApi.PostStore<br>Parameters: active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.checkstatus()'><b>checkstatus</b><br>Test class: SwaggerApi.Putpet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: mahmoud, khalil, apfel</td>
+<td></td>
+<td>1</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: medo</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: yas</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.Get.checkstatuscode()'><b>checkstatuscode</b><br>Test class: ApiBooker.Get</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.Get@d4342c2</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: mohab</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.checkstatusline()'><b>checkstatusline</b><br>Test class: SwaggerApi.Putpet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.checkstatus()'><b>checkstatus</b><br>Test class: SwaggerApi.PostUser</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: medo, adhm, pasta</td>
+<td></td>
+<td>1</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: bebo</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.post()'><b>post</b><br>Test class: SwaggerApi.PostStore<br>Parameters: nagtive</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='ApiBooker.DeleteBooking.checkheader()'><b>checkheader</b><br>Test class: ApiBooker.DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.DeleteBooking@159f197</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: ahmed, shrief, kola</td>
+<td></td>
+<td>1</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.checkheader()'><b>checkheader</b><br>Test class: SwaggerApi.Putpet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.checkstatusline()'><b>checkstatusline</b><br>Test class: SwaggerApi.PostUser</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.Get.checkbody()'><b>checkbody</b><br>Test class: ApiBooker.Get</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.Get@d4342c2</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.checkheader()'><b>checkheader</b><br>Test class: SwaggerApi.PostPet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.post()'><b>post</b><br>Test class: SwaggerApi.PostPet<br>Parameters: walled, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.post()'><b>post</b><br>Test class: SwaggerApi.Putpet<br>Parameters: maha, integer, float, active</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: kamal</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: mohamed</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.checkstatusline()'><b>checkstatusline</b><br>Test class: SwaggerApi.PostStore</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='ApiBooker.CreateBooker.checkheader()'><b>checkheader</b><br>Test class: ApiBooker.CreateBooker</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.CreateBooker@647fd8ce</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.putdata()'><b>putdata</b><br>Test class: ApiBooker.PUTBOOKER<br>Parameters: maha, mohb, meat</td>
+<td></td>
+<td>1</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.checkheader()'><b>checkheader</b><br>Test class: SwaggerApi.PostStore</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='SwaggerApi.Putpet.ceckbody()'><b>ceckbody</b><br>Test class: SwaggerApi.Putpet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.Putpet@7ee955a8</td></tr>
+<tr>
+<td title='ApiBooker.GetBooking.checkheader()'><b>checkheader</b><br>Test class: ApiBooker.GetBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.GetBooking@6193932a</td></tr>
+<tr>
+<td title='SwaggerApi.PostStore.post()'><b>post</b><br>Test class: SwaggerApi.PostStore<br>Parameters: nagtive</td>
+<td></td>
+<td>1</td>
+<td>SwaggerApi.PostStore@7c469c48</td></tr>
+<tr>
+<td title='SwaggerApi.PostPet.checkstatus()'><b>checkstatus</b><br>Test class: SwaggerApi.PostPet</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostPet@51e5fc98</td></tr>
+<tr>
+<td title='ApiBooker.GetBooking.checkstatusline()'><b>checkstatusline</b><br>Test class: ApiBooker.GetBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.GetBooking@6193932a</td></tr>
+<tr>
+<td title='ApiBooker.GetBooking.checkstatuscode()'><b>checkstatuscode</b><br>Test class: ApiBooker.GetBooking</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.GetBooking@6193932a</td></tr>
+<tr>
+<td title='ApiBooker.CreateBooker.checkstatusline()'><b>checkstatusline</b><br>Test class: ApiBooker.CreateBooker</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.CreateBooker@647fd8ce</td></tr>
+<tr>
+<td title='ApiBooker.PUTBOOKER.checkbody()'><b>checkbody</b><br>Test class: ApiBooker.PUTBOOKER</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.PUTBOOKER@1ffe63b9</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: alla</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+<tr>
+<td title='ApiBooker.CreateBooker.checkbody()'><b>checkbody</b><br>Test class: ApiBooker.CreateBooker</td>
+<td></td>
+<td>0</td>
+<td>ApiBooker.CreateBooker@647fd8ce</td></tr>
+<tr>
+<td title='SwaggerApi.PostUser.post()'><b>post</b><br>Test class: SwaggerApi.PostUser<br>Parameters: ledo</td>
+<td></td>
+<td>0</td>
+<td>SwaggerApi.PostUser@12e61fe6</td></tr>
+</table><p>
+</body>
+</html>
